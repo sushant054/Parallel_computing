@@ -14,7 +14,8 @@ MPI_Comm_size(MPI_COMM_WORLD, &size);//no of process
 
 if(rank==0){
 int sum=0;
-for(int i=0;i<=2;i++){
+for(int i=0;i<=2;i++)
+{
 sum+=arr[i];
 }
 cout<<"sum0:"<<sum<<endl;
