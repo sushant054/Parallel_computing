@@ -1,0 +1,5 @@
+The result vector Y is:
+483
+124
+260
+119
